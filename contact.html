@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>My First Static Site</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;600;700&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+<section class="sub-header">
+<nav>
+    <a href="index.html"><imag src="" alt=""></imag></a>
+    <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="">APP</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+<h1>Contact Us</h1>
+
+</section>
+
+<!-------Contact us------->
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1529.322315329301!2d-75.19682696441804!3d39.94933800000001!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sng!4v1646893296031!5m2!1sen!2sng" 
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section>
+
+<section class="contact-us">
+
+<div class="row">
+    <div class="contact-col">
+        <div>
+            <i class="fa fa-home"></i>
+            <span>
+                <h5>XYZ Road, ABC building</h5>
+                <p>Oshodi, Lagos, NIG</p>
+            </span>
+        </div>
+        <div>
+            <i class="fa fa-phone"></i>
+            <span>
+                <h5>+234 8102 854 895</h5>
+                <p>Monday to Saturday, 10AM to 6PM</p>
+            </span>
+        </div>
+        <div>
+            <i class="fa fa-envelope-o"></i>
+            <span>
+                <h5>iolamilekann@gmail.com</h5>
+                <p>Email us your query</p>
+            </span>
+        </div>
+    </div>
+    <div class="contact-col">
+
+<form action="">
+    <input type="text" placeholder="Enter Your Name" required>
+    <input type="email" placeholder="Enter Your Email" required>
+    <input type="number" placeholder="Your PhoneNum" required>
+    <textarea rows="8" placeholder="Message" required></textarea>
+    <button type="submit" class="hero-btn red-btn">Send Message</button>
+</form>
+
+    </div>
+</div>
+
+</section>
+
+
+
+
+
+
+<!-------------Footer----------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>gkjgjk hjgfjhgjijgkog ojopgjogjojggklml jgowjojjopej.ojf.
+        nklnkmglmdlngmsflmdl,<br>;bmhgnmngsn,l knklangnanganllbh
+        nfknrgklnklnlanbljq; kmbngssdhklopejfklashnnklvnklnv.</p>
+        
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa fa-heart-o"></i> by TekTek</p>
+</section>
+
+
+<!--JavaScript For Toggle Menu-->
+<script>
+var navLinks = document.getElementById("navLinks");
+
+function showMenu(){
+navLinks.style.right = "0";
+}
+function hideMenu(){
+navLinks.style.right = "-200px";
+}
+
+</script>
+
+
+    </body>
+</html>
